@@ -1,0 +1,1 @@
+node index.js --configurations "domain.com 3000" --certbot-email email@gmail.com --file-name domain.com

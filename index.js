@@ -5,8 +5,7 @@ const execAsync = util.promisify(exec);
 const { spawn } = require('child_process');
 const { program } = require('commander');
 
-// Usage: node configure-nginx.js --configurations "deep.deep.foundation 3007" "deeplinks.deep.foundation 3006" "hasura.deep.foundation 8080" --certbot-email drakonard@gmail.com --file deep
-// Usage: node index.js --configurations "chain.marketmaker.cc 3000" --certbot-email suenot@gmail.com --file-name chain.marketmaker.cc
+// Usage: node index.js --configurations "domain.com 3000" --certbot-email email@gmail.com --file-name domain.com
 
 program
   .option('-c, --configurations <configurations...>', 'specify configurations')
